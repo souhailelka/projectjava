@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body >
+    <style>
+  #btpri{
+    margin-top: 100px;
+    margin-left: 40%;
+  }
+  .card-subtitle{
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .card-title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+  }
+   .card{
+    margin-top: 45px;
+   }
+ #cardcontainer{
+  
+    height: 900px;
+ }
+ #btnc{
+ margin-left: 45%;
+ margin-top: 10px;
+
+ }
+ #courses-title{
+  margin-left: 40%;
+ margin-top: 10px;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page3.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/souhailelka?tab=repositories">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    <div id="cardcontainer" class="container-fluid p-0 d-flex align-items-top " style="background-image: url('bg.jpg');"  >
+        <div class="card mx-auto "style="width: 50rem; height: 25rem; background-color: rgba(255,255,255,0.5);;">
+            <div class="card-body">
+        <h1 class="card-title" style="text-align: center;">eat(),sleep(),code(),repeat()</h1>
+        <h5   class="card-subtitle mb-2 " style="text-align: center;">while you are alive</h5>
+        <input type="button" id="btpri" class="btn btn-warning mt-15 btn-block" value="Courses" style="font-size: 25px;">
+</div>
+    </div>
+</div>
+
+<div class="container-fluid  align-items-center gradient" >
+  <h1 class="  align-items-start" id="courses-title" >/ Courses</h1>
+<div class="container-fluid row-12">
+  <div class="d-flex justify-content-center rndmcards">
+
+
+
+
+
+
+
+
+   
+    </div>
+    <button type="button" class="btn btn-warning mt-15 btn-block " style="font-size: 25px;" id="btnc">All Courses</button>
+      </div>
+
+  </div>
+  <script src="courses.js"></script>
+  <script src="page2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - Easy Tutorials YouTube Channel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/599b054d79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <i class="fas fa-paper-plane"></i>
+
+      <div class="input-group">
+        <label>username</label>
+        <input type="text" placeholder="Enter your username" id="username" onkeyup="validusername()">
+        <span id="username-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>email</label>
+        <input type="text" placeholder="exemple@gmail.com" id="email" onkeyup="validemail()">
+        <span id="email-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>password</label>
+        <input type="password" placeholder="Enter your password" id="pswd" onkeyup="validpswd()">
+        <span id="pswd-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>confirm password</label>
+        <input type="password" placeholder="verify the password" id="pswd2" onkeyup="validpswd2()">
+        <span id="pswd2-error"></span>
+      </div> 
+
+ 
+
+    <button onclick="return validateform()" id="btn">Submit</button>
+    <span id="submit-error"></span>
+   
+  </form>
+  
+  </div>
+  <script src="login.js"></script>
+   
+</body>
+</html>
